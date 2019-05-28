@@ -1,0 +1,6 @@
+---
+- name: simpel ping
+  hosts: all
+  tasks:
+  - name: ping
+    ping:
